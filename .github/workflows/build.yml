@@ -5,7 +5,7 @@ jobs:
   get-version:
     uses: shiipou/github-actions/.github/workflows/get-version.yml@main
     with:
-      releases-branches: '^(main)$'
+      release-branches: '^(main)$'
       
   build:
    name: Spring build

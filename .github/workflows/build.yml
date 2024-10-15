@@ -3,7 +3,7 @@ on:
  
 jobs:
   get-version:
-    uses: Soumaya-Qilin/github-actions/.github/workflows/get-version.yml@main
+    uses: shiipou/github-actions/.github/workflows/get-version.yml@main
     with:
       releases-branches: '^(main)$'
       
